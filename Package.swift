@@ -17,7 +17,7 @@ let package = Package(
         .package(url: "https://github.com/attaswift/BigInt.git", from: "5.0.0"),
         
         // 🔑 Hashing (BCrypt, SHA2, HMAC), encryption (AES), public-key (RSA), and random data generation.
-        .package(path: "./Sources/CryptoCore"),
+        .package(url: "https://github.com/yspreen/CryptoCore.git", from: "1.0.0"),
     ],
     targets: [
         // 📚 -- Mnemonic code for generating deterministic keys
